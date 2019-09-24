@@ -1,0 +1,158 @@
+.login{
+    width: 100%;
+    height: 100%;
+}
+.login .top{
+    width: 100%;
+    height: 4.25rem;
+    background: url(../images/login/background.png) no-repeat left top;
+    background-size: 100%;
+}
+.login .top i{
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    background: url(../images/public/back.png) no-repeat center;
+    background-size: 20%;
+    margin-top: .5rem;
+}
+.login .login_register{
+    display: flex;
+    margin-left: .6rem;
+}
+.login .login_register li{
+    font-size: .3rem;
+    color: #999;
+    position: relative;
+    height: .54rem;
+    line-height: .54rem;
+}
+.login .login_register .login_item{
+    margin-right: .4rem;
+}
+.login .login_register .choose{
+    font-size: .42rem;
+    color: #333;
+}
+.login .login_register li span{
+    position: absolute;
+    bottom: -.24rem;
+    width: .12rem;
+    height: .12rem;
+    border-radius: .6rem;
+	background-image: linear-gradient(#2480a6, #2480a6), linear-gradient(#f65c53,#f65c53);
+}
+.login .login_register li .login_sign{
+    left: .34rem;
+}
+.login .login_register li .register_sign{
+    left: .34rem;
+}
+.login .login_detail{
+    margin: 0 .6rem;
+    margin-top: 1rem;
+}
+.login .login_detail ul li{
+    font-size: .28rem;
+    margin-bottom: .6rem;
+    padding-bottom: .3rem;
+    border-bottom: 1px solid #f1f1f1;
+}
+.login .login_detail ul li i{
+    display: inline-block;
+    margin-left: .2rem;
+    margin-right: .3rem;
+}
+.login .login_detail ul li .phone_icon{
+    width: .3rem;
+    height: .42rem;
+    background: url(../images/login/phone.png) no-repeat left top;
+    background-size: 100%;
+    margin-bottom: -.1rem;
+}
+.login .login_detail ul li .psw_icon{
+    width: .3rem;
+    height: .36rem;
+    background: url(../images/login/psw.png) no-repeat left top;
+    background-size: 100%;
+    margin-bottom: -.05rem;
+}
+.login .login_detail ul li input{
+    font-size: .28rem;
+}
+.login .login_detail .assist{
+    color: #b6c2ce;
+    font-size: .28rem;
+    text-align: right;
+}
+/* 注册 */
+.login .register_detail ul .code_item{
+    display: flex;
+}
+.login .register_detail ul .code_item p .code_icon{
+    width: .5rem;
+    height: .32rem;
+    background: url(../images/login/code.png) no-repeat left top;
+    background-size: 100%;
+    margin: 0 .2rem -.12rem .1rem;
+}
+.login .register_detail ul .invite_code input{
+    margin-left: .2rem;
+}
+.login .register_detail .btn{
+    margin-top: 1rem!important;
+}
+/* 按钮水波纹效果 */
+.login .login_detail .btn {
+    position: relative;
+    /* 隐藏溢出的径向渐变背景 */
+    overflow: hidden;
+    color: #fff;
+    font-size: .34rem;
+    width: 6.3rem;
+    text-align: center;
+    height: .88rem;
+    line-height: .88rem;
+	background-image: linear-gradient(#2480a6, #2480a6), linear-gradient(#fd7663,#fd7663);
+	box-shadow: 0px 0px 7px 0px rgba(51, 51, 51, 0.2);
+    border-radius: .44rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.login .login_detail .btn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    /* 设置径向渐变 */
+    background-image: radial-gradient(circle, #666 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform .3s, opacity .5s;
+}
+.login .login_detail .btn:active:after {
+    transform: scale(0, 0);
+    opacity: .3;
+    /* 设置初始状态 */
+    transition: 0s;
+}
+
+.login_psw,.register_psw {
+    -webkit-text-security:disc;
+    /* text-security: disc; */
+}
+.register_detail .privacy{
+    font-size: .26rem;
+    text-align: center;
+    margin-top: .1rem;
+    margin-bottom: .2rem;
+}
+.register_detail .privacy span{
+    color: #2480a6;
+}

@@ -1,0 +1,130 @@
+.my{
+    padding-bottom: 1.01rem;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.my .top{
+  width: 100%;
+  height: 4.18rem;
+  background: url(../../assets/images/my/my_bg.png) no-repeat left top;
+  background-size: 100%;
+  position: relative;
+}
+.my .top i{
+  position: absolute;
+  left: 0;
+  top: .8rem;
+  width: .8rem;
+  height: .8rem;
+  background: url(../../assets/images/public/back.png) no-repeat center;
+  background-size: 20%;
+}
+.my .top span{
+  position: absolute;
+  right: .2rem;
+  top: .97rem;
+  width: 60%;
+  height: 60%;
+  background: url(../../assets/images/my/set.png) no-repeat right top;
+  background-size: 8%;
+}
+.my .top ul{
+  background: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(8, 8, 9, 0.4);
+  border-radius: .1rem;
+  position: absolute;
+  top: 1.5rem;
+  right: .4rem;
+  padding: .2rem .34rem;
+}
+.my .top ul li{
+  font-size: .22rem;
+  text-align: center;
+}
+.my .top ul li:first-child{
+  margin-bottom: .3rem;
+}
+.my .content{
+    width: 100%;
+    height: 66%;
+    background: url(../images//my/content_bg.png) no-repeat left top;
+    background-size: 100%;
+    position: relative;
+    margin-top: -.5rem;
+}
+.my .content .img_head{
+    position: absolute;
+    top: -.9rem;
+    left: 50%;
+    margin-left: -.9rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    background: url(../images/public/logo.png) no-repeat left top;
+    background-size: 100%;
+    box-shadow: 0px 0px 62px 0px rgba(127, 134, 255, 0.55);
+    border-radius: 1rem;
+}
+.my .content .info{
+    font-size: .42rem;
+    text-align: center;
+    padding-top: 1.2rem;
+}
+.my .content .info span{
+    font-size: .24rem;
+    color: #999;
+}
+.my .content .info .login_register{
+  position: relative;
+}
+.my .content .info .login_register span{
+  color: #333;
+  position: absolute;
+  top: .14rem;
+  left: .5rem;
+  animation: prompt .8s infinite alternate;
+}
+.my .content .info .login_register span i{
+  display: inline-block;
+  width: .32rem;
+  height: .32rem;
+  background: url(../images/home/finger1.png) no-repeat left top;
+  background-size: 100%;
+  margin-bottom: -.06rem;
+  margin-left: .02rem;
+}
+@keyframes prompt{
+  from{
+      margin-left: 0;
+  }
+  to{
+      margin-left: .2rem;
+  }
+}
+.my .content ul{
+    margin: 0 .4rem;
+    margin-top: .8rem;
+}
+.my .content ul li{
+    font-size: .3rem;
+    display: flex;
+    margin-bottom: .5rem;
+    padding-bottom: .3rem;
+    border-bottom: 1px solid #f1f1f1;
+}
+.my .content ul li span{
+    flex: 1;
+}
+.my .content ul li a{
+    flex: 1;
+    text-align: right;
+    color: #333;
+}
+
+/* 过渡 */
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .8s;
+  }
+  .fade-enter, .fade-leave-to{
+    opacity: 0;
+  }

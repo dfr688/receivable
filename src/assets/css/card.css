@@ -1,0 +1,229 @@
+.card{
+    width: 100%;
+    height: 100%;
+}
+/* 支付卡 */
+.card .pay_card{
+    margin: 0 .2rem;
+    margin-top: .4rem;
+}
+.card .pay_card .title{
+    font-size: .32rem;
+    margin-bottom: .3rem;
+}
+.card .pay_card .title span{
+    font-size: .22rem;
+    color: #999;
+}
+.card .pay_card ul li{
+    display: flex;
+    font-size: .24rem;
+    color: #fff;
+    width: 7.1rem;
+    height: 2.74rem;
+    margin: 0 auto;
+}
+.card .pay_card ul li:nth-child(2){
+    transform: translateY(-1.2rem);
+}
+.card .pay_card ul li:nth-child(3){
+    transform: translateY(-2.2rem);
+}
+.card .pay_card ul li:nth-child(4){
+    transform: translateY(-3.2rem);
+}
+.card .pay_card ul li:nth-child(5){
+    transform: translateY(-4.2rem);
+}
+.card .pay_card ul li:nth-child(6){
+    transform: translateY(-5.2rem);
+}
+.card .pay_card ul .Agricultural_Bank{
+    background: url(../images/home/bg_1.png) no-repeat left top;
+    background-size: 100%; 
+}
+.card .pay_card ul .Industrial_Bank{
+    background: url(../images/home/bg_2.png) no-repeat left top;
+    background-size: 100%; 
+}
+.card .pay_card ul .China_Merchants_Bank{
+    background: url(../images/home/bg_3.png) no-repeat left top;
+    background-size: 99%; 
+    margin-left: .03rem;
+}
+.card .pay_card ul li .left{
+    flex: 3;
+    padding-top: .3rem;
+    padding-left: .45rem;
+}
+.card .pay_card ul li .left i{
+    display: inline-block;
+    width: .83rem;
+    height: .83rem;
+    margin-right: .4rem;
+}
+.card .pay_card ul .Agricultural_Bank .left i{
+    background: url(../images/home/icon_1.png) no-repeat left top;
+    background-size: 100%;
+}
+.card .pay_card ul .Industrial_Bank .left i{
+    background: url(../images/home/icon_2.png) no-repeat left top;
+    background-size: 100%;
+}
+.card .pay_card ul .China_Merchants_Bank .left i{
+    background: url(../images/home/icon_3.png) no-repeat left top;
+    background-size: 100%;
+}
+.card .pay_card ul li .left div{
+    display: inline-block;
+}
+.card .pay_card ul li .left div p{
+    font-size: .32rem;
+    margin-bottom: .2rem;
+}
+.card .pay_card ul li .right{
+    flex: 1;
+    padding-top: .6rem;
+}
+/* 收款卡 */
+.card .receivable_card ul li.Agricultural_Bank{
+    background: url(../images/home/bg_1.png) no-repeat left top;
+    background-size: 100%; 
+}
+.card .receivable_card ul li.Agricultural_Bank .left i{
+    background: url(../images/home/icon_1.png) no-repeat left top;
+    background-size: 100%;
+}
+.card .receivable_card ul li.Industrial_Bank{
+    background: url(../images/home/bg_2.png) no-repeat left top;
+    background-size: 100%; 
+}
+.card .receivable_card ul li.Industrial_Bank .left i{
+    background: url(../images/home/icon_2.png) no-repeat left top;
+    background-size: 100%;
+}
+.card .receivable_card ul li.China_Merchants_Bank{
+    background: url(../images/home/bg_3.png) no-repeat left top;
+    background-size: 100%; 
+}
+.card .receivable_card ul li.China_Merchants_Bank .left i{
+    background: url(../images/home/icon_3.png) no-repeat left top;
+    background-size: 100%;
+}
+.card .receivable_card .tip{
+    font-size: .24rem;
+    color: #666;
+    margin-top: .3rem;
+}
+.card .receivable_card .ripple{
+    margin-top: 1rem!important;
+}
+.card .receivable_card .ripple .modify{
+    display: inline-block;
+    width: .53rem;
+    height: .53rem;
+    background: url(../images/home/modify.png) no-repeat left top;
+    background-size: 100%;
+    margin-right: .2rem;
+    margin-bottom: -.13rem;
+}
+/* 按钮水波纹效果 */
+.card .pay_card .ripple {
+    position: relative;
+    /* 隐藏溢出的径向渐变背景 */
+    overflow: hidden;
+    color: #fefefe;
+    font-size: .3rem;
+    width: 3.82rem;
+    text-align: center;
+    height: 1.08rem;
+    line-height: 1.08rem;
+	background-image: linear-gradient(#2480a6, #2480a6), linear-gradient(#fd7663,#fd7663);
+	box-shadow: 0px 0px 7px 0px rgba(51, 51, 51, 0.2);
+    border-radius: .1rem;
+    margin: .5rem auto;
+}
+.card .pay_card .diff{
+    margin-top: 4rem;
+}
+.card .pay_card .ripple .add{
+    display: inline-block;
+    width: .55rem;
+    height: .55rem;
+    background: url(../images/home/add.png) no-repeat left top;
+    background-size: 100%;
+    margin-right: .2rem;
+    margin-bottom: -.13rem;
+}
+.card .pay_card .ripple:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    /* 设置径向渐变 */
+    background-image: radial-gradient(circle, #666 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform .3s, opacity .5s;
+}
+.card .pay_card .ripple:active:after {
+    transform: scale(0, 0);
+    opacity: .3;
+    /* 设置初始状态 */
+    transition: 0s;
+}
+.card .add_card{
+    font-size: .3rem;
+}
+.card .add_card p{
+    text-align: center;
+    color: #999;
+    margin-bottom: 4rem;
+    padding-top: 3rem;
+}
+.card .add_card .ripple{
+    margin-top: -1rem;
+    margin-bottom: 0;
+}
+
+/* 弹框 */
+.card .boxs{
+    width: 5rem;
+    background: #fff;
+    margin: 0 auto;
+    font-size: .3rem;
+    padding-top: .2rem;
+    border-radius: .2rem;
+}
+.card .boxs p{
+    text-align: center;
+    font-size: .4rem;
+    margin-bottom: .2rem;
+}
+.card .boxs span{
+    display: block;
+    text-align: center;
+    color: #999;
+    margin-bottom: .2rem;
+}
+.card .boxs ul{
+    display: flex;
+}
+.card .boxs ul li{
+    flex:1;
+    text-align: center;
+    padding: .2rem 0;
+    border-top: 1px solid #f1f1f1;
+}
+.card .boxs ul li:first-child{
+    border-right: 1px solid #f1f1f1;
+}
+.card .forgetTip li{
+    border-right: none!important;
+}

@@ -1,0 +1,106 @@
+.account{
+    width: 100%;
+    height: 100%;
+}
+.account .withdraw{
+    margin-top: .46rem;
+    margin-bottom: 1.6rem;
+}
+.account .withdraw ul li{
+    display: flex;
+    font-size: .24rem;
+    color: #fff;
+    width: 7.1rem;
+    height: 2.74rem;
+    margin: 0 auto;
+}
+.account .withdraw ul li.Agricultural_Bank{
+    background: url(../images/home/bg_1.png) no-repeat left top;
+    background-size: 100%; 
+}
+.account .withdraw ul li.Industrial_Bank{
+    background: url(../images/home/bg_2.png) no-repeat left top;
+    background-size: 100%; 
+}
+.account .withdraw ul li.China_Merchants_Bank{
+    background: url(../images/home/bg_3.png) no-repeat left top;
+    background-size: 100%; 
+}
+.account .withdraw ul li .left{
+    flex: 3;
+    padding-top: .3rem;
+    padding-left: .45rem;
+}
+.account .withdraw ul li .left i{
+    display: inline-block;
+    width: .83rem;
+    height: .83rem;
+    margin-right: .4rem;
+}
+.account .withdraw ul li.Agricultural_Bank .left i{
+    background: url(../images/home/icon_1.png) no-repeat left top;
+    background-size: 100%;
+}
+.account .withdraw ul li.Industrial_Bank .left i{
+    background: url(../images/home/icon_2.png) no-repeat left top;
+    background-size: 100%;
+}
+.account .withdraw ul li.China_Merchants_Bank .left i{
+    background: url(../images/home/icon_3.png) no-repeat left top;
+    background-size: 100%;
+}
+.account .withdraw ul li .left div{
+    display: inline-block;
+}
+.account .withdraw ul li .left div p{
+    font-size: .32rem;
+    margin-bottom: .2rem;
+}
+.account .withdraw ul li .right{
+    flex: 1;
+    padding-top: .6rem;
+}
+.account .withdraw .withdraw_balance{
+    font-size: .32rem;
+    margin: 0 .46rem;
+    margin-top: .5rem;
+}
+.account .withdraw .withdraw_balance .title{
+     color: #666;
+}
+.account .withdraw .withdraw_balance .money{
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: .1rem;
+    margin-top: .4rem;
+}
+.account .withdraw .withdraw_balance .money span{
+    font-size: .5rem;
+}
+.account .withdraw .withdraw_balance .money input{
+    font-size: .32rem;
+    margin-left: .2rem;
+}
+.account .withdraw .withdraw_balance .useful{
+    display: flex;
+    margin-top: .2rem;
+}
+.account .withdraw .withdraw_balance .useful div{
+    flex: 2;
+}
+.account .withdraw .withdraw_balance .useful div span{
+    color: #e82222;
+}
+.account .withdraw .withdraw_balance .useful p{
+    flex: 1;
+    text-align: right;
+    color: #e82222;
+    animation: changeStyle .8s infinite alternate;
+}
+@keyframes changeStyle{
+    from{
+        margin-right: 0;
+    }
+    to{
+        margin-right: .05rem;
+    }
+}

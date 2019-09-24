@@ -1,0 +1,90 @@
+.identify{
+    width: 100%;
+    height: 100%;
+}
+.identify .top{
+    width: 100%;
+    height: 3.33rem;
+    font-size: .32rem;
+    color: #fff;
+    background: #2480a6;
+    text-align: center;
+    padding-top: .5rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.identify .top i{
+    position: absolute;
+    top: .38rem;
+    left: 0;
+    width: .8rem;
+    height: .8rem;
+    background: url(../images/public/back.png) no-repeat center;
+    background-size: 20%;
+}
+.identify .step{
+    width: 7.02rem;
+	height: 3.77rem;
+	background: #70c0e3;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: .1rem;
+    margin: 0 auto;
+    margin-top: -1.885rem;
+    position: relative;
+    padding-top: 1.375rem;
+    box-sizing: border-box;
+}
+.identify .step div{
+    width: 6.27rem;
+    height: 1.02rem;
+    margin: 0 auto;
+}
+.identify .step div.stepOne{
+    background: url(../images/home/step_1.png) no-repeat left top;
+    background-size: 100%;
+}
+.identify .step div.stepTwo{
+    background: url(../images/home/step_2.png) no-repeat left top;
+    background-size: 100%;
+}
+.identify .step div.stepThree{
+    background: url(../images/home/step_3.png) no-repeat left top;
+    background-size: 100%;
+}
+.identify .step_detail{
+    margin-bottom: .4rem;
+}
+.identify .step_detail .img{
+    width: 6rem;
+    height: 3.93rem;
+    margin: .8rem auto;
+    position: relative;
+}
+.identify .step_detail .img img{
+    width: 6rem;
+    height: 3.93rem;
+    max-width: 6rem;
+    max-height: 3.93rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.identify .step_detail .img input{
+    display: none;
+}
+.identify .step_one .img{
+    background: url(../images/home/photo_1.png) no-repeat left top;
+    background-size: 100%;
+}
+.identify .step_two .img{
+    background: url(../images/home/photo_2.png) no-repeat left top;
+    background-size: 100%;
+}
+.identify .step_two .img1{
+    background: url(../images/home/photo_3.png) no-repeat left top;
+    background-size: 100%;
+}
+.identify .step_three .img{
+    background: url(../images/home/photo_1.png) no-repeat left top;
+    background-size: 100%;
+}

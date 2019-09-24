@@ -1,0 +1,77 @@
+.rate{
+    width: 100%;
+    height: 100%;
+}
+.rate .quota_detail{
+    font-size: .32rem;
+    margin-top: .4rem;
+}
+.rate .quota_detail .current_grade{
+    display: flex;
+    margin: 0 .2rem;
+    margin-bottom: .3rem;
+}
+.rate .quota_detail .current_grade .left{
+    flex: 1;
+}
+.rate .quota_detail .current_grade .right{
+    flex: 1;
+    text-align: right;
+}
+.rate .quota_detail .current_grade .right i{
+    display: inline-block;
+    width: .13rem;
+    height: .24rem;
+    background: url(../../assets/images/home/rocket.png) no-repeat left top;
+    background-size: 100%;
+    margin-left: .3rem;
+    margin-bottom: -.02rem;
+}
+.rate .quota_detail .detail{
+    margin-bottom: .3rem;
+}
+.rate .quota_detail .detail .title{
+    width: 100%;
+	height: .93rem;
+    background: #eee;
+    line-height: .93rem;
+    color: #999;
+    padding-left: .2rem;
+    box-sizing: border-box;
+}
+.rate .quota_detail .detail ul{
+    display: flex;
+}
+.rate .quota_detail .detail ul li{
+    width: 25%;
+    text-align: center;
+}
+.rate .quota_detail .detail ul li p{
+    /* padding: .3rem 0; */
+    height: 1.02rem;
+    box-sizing: border-box;
+    line-height: 1.02rem;
+}
+.rate .quota_detail .detail ul li .type{
+    color: #999;
+}
+/* 费率 */
+.rate .rate_detail{
+    margin-top: .7rem;
+}
+.rate .rate_detail .arrival_account{
+    display: flex;
+    margin-bottom: .6rem;
+}
+.rate .rate_detail .arrival_account p{
+    flex: 1;
+    color: #f42525;
+    font-size: .32rem;
+}
+.rate .rate_detail .arrival_account p:first-child{
+    text-align: right;
+    margin-right: 1.2rem;
+}
+.rate .rate_detail .detail .title{
+    background: #fff;
+}
